@@ -48,9 +48,7 @@ div#imagem {
 
 div#form {
     display: block;
-    
     padding: 10px;
-    
     
 }
 
@@ -65,4 +63,44 @@ div#form > p {
 
 div.campo {
     background-color: #5f2c82;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px auto;
+    width: 100%;
+}
+
+form > input[type=submit] {
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    margin: 10px auto;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #49a09d;
+}
+
+form > input[type=submit]:hover {
+    background-color: #377976;
+    cursor: pointer;
+}
+
+form > input[type=button] {
+
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    margin: 10px auto;
+    color: #377976;
+    border: 1px solid #377976;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+
+}
+
+form > input#iemail {
+   
+    background-color: #49a09d;
 }
