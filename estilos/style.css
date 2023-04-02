@@ -24,6 +24,7 @@ body {
 
 section {
     width: 250px;
+    height: 500px;
     border-radius: 20px;
     margin: auto;
     position: absolute;
@@ -32,19 +33,24 @@ section {
     transform: translate(-50%, -50%);
     overflow: hidden;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.377);
+    background-color: white;
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 div#imagem {
     display: block;
-    background: white url(../imagens/metal.jpg)  right bottom no-repeat;
+    background: white url(../imagens/metal.jpg) left bottom no-repeat;
     background-size: cover;
     height: 200px;
 }    
 
 div#form {
-    background-color: white;
+    display: block;
+    
     padding: 10px;
-    height: 200px;
+    
     
 }
 
@@ -55,4 +61,8 @@ div#form > h1 {
 
 div#form > p {
     font-size: 0.8rem;
+}
+
+div.campo {
+    background-color: #5f2c82;
 }
